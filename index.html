@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <title>Event System</title>
+    <link href="pages/styles.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <div id = "TopSection">
+        Browser GameLoop
+    </div>
+
+    <div id="contain">
+        <div id = "EventSection">
+
+        </div>
+        <div id = "UIControl">
+            <form>
+                Name: <input type = "text" id ="Name"> <br />
+                Interval: <input type = "text" id ="Interval"> <br />
+                # Times: <input type = "text" id ="Iterations"> <br />
+                <div style = "text-align: center;"><input type ="button" value = "Add Event" onclick = "addEvent()"></div>
+            </form>
+        </div>
+        <div style = 'clear:both;'></div>
+    </div>
+
+    <div id = "BottomSection">Created for CS 5410</div>
+
+
+    <script data-main = "pages/gameloop.js" src="pages/gameloop.js"></script>
+</body>
+<footer>
+
+</footer>
+</html>
